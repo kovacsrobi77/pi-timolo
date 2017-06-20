@@ -24,6 +24,7 @@ imageNamePrefix = 'cam1-'  # default= 'cam1-' for all image file names. Eg garag
 imageWidth = 1024          # default= 1024 Full Size Image Width in px
 imageHeight = 768          # default= 768  Full Size Image Height in px
 imageFormat = ".jpg"       # default = ".jpg"  image Formats .jpeg .png .gif .bmp
+imageJpegQuality = 85      # jpg quality 0-100 %
 imageVFlip = False         # default= False True Flips image Vertically
 imageHFlip = False         # default= False True Flips image Horizontally
 imageRotation = 0          # Default= 0  Rotate image. Valid values: 0, 90, 180, 270
@@ -96,6 +97,7 @@ timelapseNumMax = 2000      # default= 2000 Max number of timelapse images desir
 timelapseExitSec = 0        # default= 0 seconds Surpress Timelapse after specified Seconds  0=Continuous
 timelapseSubDirMaxHours = 0 # 0=off or specify MaxHours - Creates New dated sub-folder if MaxHours exceeded
 timelapseSubDirMaxFiles = 0 # 0=off or specify MaxFiles - Creates New dated sub-folder if MaxFiles exceeded
+timelapseMaxFiles = 0       # 0=off or specify MaxFiles in timelapse dir
 timelapseRecentMax = 10     # 0=off or specify number of most recent files to save in timelapseRecentDir
 timelapseRecentDir = "media/recent/timelapse"  # default= "media/recent/timelapse"  location of timelapseRecent files
 
